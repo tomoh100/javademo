@@ -1,7 +1,7 @@
 pipeline {
          agent { label "agent01" } 
 	tools {
-        maven 'Maven 3.9.8' // This should match the name given in Global Tool Configuration
+        maven 'maven3' // This should match the name given in Global Tool Configuration
     }
 		 stages{ 
 		 
