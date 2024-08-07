@@ -4,7 +4,7 @@ pipeline {
 		 
 		         stage("Build package"){
 			   steps{
-			       sh " mvn --version " 
+			       sh " mvn -version " 
 				   }
 				}
 			   stage ("build notification"){
